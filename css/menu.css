@@ -5,8 +5,8 @@
     url('../img/linhas-2.png'),
     url('../img/bg.png');
     background-repeat: no-repeat, no-repeat, no-repeat, repeat;
-    background-size: 25%, 40%, 20%, 100%;
-    background-position: top left, right -4em top, top 5em left,center;
+    background-size: 25%, 40%, 25%, 100%;
+    background-position: top left, right -4em top, bottom -6em left,center;
 }
 
 .container-header {
@@ -32,5 +32,5 @@
 
 .logo-incorporadoras {
     width: 100%;
-    margin-left: 1em;
+    margin-top: 1em;
 }
