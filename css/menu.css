@@ -21,7 +21,7 @@
 .container-menu {
     display: flex;
     justify-content: center;
-    margin-bottom: .5em;
+    margin: 1em;
 }
 
 .container-footer {
