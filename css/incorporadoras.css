@@ -1,51 +1,34 @@
-.container-fechar {
-    display: flex;
-    justify-content: flex-end;
-    margin: .5em .5em 0 0;
-}
-
 .incorporadoras {
-    background-image:
-    url('../img/icones-2.png'), 
-    url('../img/bg.png');
-    background-repeat: no-repeat, repeat;
-    background-size: 4%, 100%;
-    background-position: left 2.5em center, center;
+    background-image: url('../img/bg.png');
+    background-size: 100%;
 }
 
 .container-incorporadoras {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.25));
+    margin: 1em;
 }
 
 .container-textos {
-    width: 40%;
-    padding: 1em;
     background-color: var(--branco);
-    margin: 2em 1em 2em 1em;
-    filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.25));
+    width: 40%;
+    margin: 1em;
+    padding: 1em;
 }
 
-
 .logo-setin {
-    width: 30%;
-    margin-bottom: 1em;
+    width: 50%;
 }
 
 .logo-sdi {
-    width: 10%;
-    margin-bottom: 1em;
-
+    width: 20%;
 }
 
-.titulo {
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 1em;
-}
-
+.titulo,
 .texto {
-    font-size: 18px;
-    line-height: 1.5em;
+    font-size: 21px;
 }
+
+
+
