@@ -1,0 +1,8 @@
+.incorporadoras {
+    background-image:
+    url('../img/icones-2.png'), 
+    url('../img/bg.png');
+    background-repeat: no-repeat, repeat;
+    background-size: 4%, 100%;
+    background-position: top 2em left, center;
+}    
