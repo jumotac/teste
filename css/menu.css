@@ -1,9 +1,9 @@
 .menu {
     background-image: 
-    url('/img/folha-2.png'),
-    url('/img/linhas.png'),
-    url('/img/linhas-2.png'),
-    url('/img/bg.png');
+    url('../img/folha-2.png'),
+    url('../img/linhas.png'),
+    url('../img/linhas-2.png'),
+    url('../img/bg.png');
     background-repeat: no-repeat, no-repeat, no-repeat, repeat;
     background-size: 25%, 40%, 20%, 100%;
     background-position: top left, right -4em top, top 5em left,center;
