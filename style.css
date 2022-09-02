@@ -1,3 +1,16 @@
+@import url('./css/menu.css');
+@import url('./css/botoes.css');
+
+:root {
+    --fonte-principal: #7D7368; 
+    --btn-play: #C38875;
+    --btn-localizacao: #595E28;
+    --btn-ficha: #684C2F;
+    --btn-areas: #7D7368;
+    --btn-plantas: #BCB09D;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,74 +19,8 @@
 
 body {
     font-family: 'Qwitcher Grypen', cursive;
-    font-size: 4em;
-    color: #7D7368;
+    font-size: 3em;
+    color: var(--fonte-principal);
 
 }
 
-.menu {
-    background-image: 
-    url('./img/folha-2.png'),
-    url('./img/linhas.png'),
-    url('./img/bg.png');
-    background-repeat: no-repeat, no-repeat, repeat;
-    background-size: 30%, 50%, 100%;
-    background-position: top left, top 5em right, center;
-}
-
-.container-header {
-    margin: .5em auto;
-    text-align: center;
-}
-
-.logo-vestra {
-    width: 50%;
-}
-
-.container-menu {
-    display: flex;
-    justify-content: center;
-    margin-bottom: .5em;
-}
-
-.menu-botao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 120px;
-    height: 120px;
-    margin: 0 .5em .5em .5em;
-    border-radius: 100%;
-    filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.25));
-    
-}
-
-.botao-img {
-    width: 70px;
-    height: 70px;
-}
-
-.play {
-    background-color: #C38875;
-}
-
-.localizacao {
-    background-color: #595E28;
-}
-
-.ficha {
-    background-color: #684C2F;
-}
-
-.areas {
-    background-color: #7D7368;
-}
-
-.plantas {
-    background-color: #BCB09D;
-}
-
-.logo-incorporadoras {
-    width: 20%;
-    margin-left: 1em;
-}

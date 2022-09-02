@@ -1,0 +1,36 @@
+.menu {
+    background-image: 
+    url('/img/folha-2.png'),
+    url('/img/linhas.png'),
+    url('/img/linhas-2.png'),
+    url('/img/bg.png');
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+    background-size: 25%, 40%, 20%, 100%;
+    background-position: top left, right -4em top, top 5em left,center;
+}
+
+.container-header {
+    margin-top: .5em;
+    text-align: center;
+}
+
+.logo-vestra {
+    width: 35%;
+}
+
+.container-menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: .5em;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 2em;    
+}
+
+.logo-incorporadoras {
+    width: 100%;
+    margin-left: 1em;
+}
