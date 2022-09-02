@@ -34,3 +34,13 @@
 .btn-plantas {
     background-color: var(--btn-plantas);
 }
+
+.btn-x {
+    width: 50px;
+    height: 50px;
+}
+
+.btn-fechar {
+    width: 30px;
+    height: 30px;
+}

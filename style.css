@@ -1,5 +1,6 @@
 @import url('./css/menu.css');
 @import url('./css/botoes.css');
+@import url('./css/incorporadoras.css');
 
 :root {
     --fonte-principal: #7D7368; 
@@ -8,6 +9,7 @@
     --btn-ficha: #684C2F;
     --btn-areas: #7D7368;
     --btn-plantas: #BCB09D;
+    --branco: #ffffff;
 }
 
 
