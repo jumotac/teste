@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+    line-height: 4em;
+}
+
+.container {
+    margin: 4em auto;
+    padding-top: 5em;
+    background-color: aliceblue;
+    filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.25));
+
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+}
+
+.botao {
+    background-color: brown;
+    width: 30%;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: none;
+    padding: 1em;
+    border-radius: 16px;
+}
