@@ -5,27 +5,75 @@
 }
 
 body {
-    background-color: cadetblue;
-    line-height: 4em;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 4em;
+    color: #7D7368;
+
 }
 
-.container {
-    margin: 4em auto;
-    padding-top: 5em;
-    background-color: aliceblue;
-    filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.25));
+.menu {
+    background-image: 
+    url('./img/folha-2.png'),
+    url('./img/linhas.png'),
+    url('./img/bg.png');
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-size: 30%, 50%, 100%;
+    background-position: top left, top 5em right, center;
+}
 
-    width: 50vw;
-    height: 50vh;
+.container-header {
+    margin: .5em auto;
     text-align: center;
 }
 
-.botao {
-    background-color: brown;
-    width: 30%;
-    text-decoration: none;
-    color: #FFFFFF;
-    border: none;
-    padding: 1em;
-    border-radius: 16px;
+.logo-vestra {
+    width: 50%;
+}
+
+.container-menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: .5em;
+}
+
+.menu-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    margin: 0 .5em .5em .5em;
+    border-radius: 100%;
+    filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.25));
+    
+}
+
+.botao-img {
+    width: 70px;
+    height: 70px;
+}
+
+.play {
+    background-color: #C38875;
+}
+
+.localizacao {
+    background-color: #595E28;
+}
+
+.ficha {
+    background-color: #684C2F;
+}
+
+.areas {
+    background-color: #7D7368;
+}
+
+.plantas {
+    background-color: #BCB09D;
+}
+
+.logo-incorporadoras {
+    width: 20%;
+    margin-left: 1em;
 }
