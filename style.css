@@ -1,15 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');
 @import url('./css/menu.css');
 @import url('./css/botoes.css');
 @import url('./css/incorporadoras.css');
 
 :root {
-    --fonte-principal: #7D7368; 
     --btn-play: #C38875;
     --btn-localizacao: #595E28;
     --btn-ficha: #684C2F;
     --btn-areas: #7D7368;
     --btn-plantas: #BCB09D;
     --branco: #ffffff;
+
+
+    --cor-fonte: #7D7368;
+    --fonte-titulo:'Qwitcher Grypen', cursive;
+    --fonte-texto: 'Roboto', sans-serif;
 }
 
 
@@ -20,8 +25,8 @@
 }
 
 body {
-    font-family: 'Qwitcher Grypen', cursive;
+    font-family: var(--fonte-titulo);
     font-size: 3em;
-    color: var(--fonte-principal);
+    color: var(--cor-fonte);
 }
 
