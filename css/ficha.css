@@ -1,0 +1,39 @@
+.ficha-tecnica {
+    background-image: 
+    url('../img/folha-2.png'),
+    url('../img/fachada.png'),
+    url('../img/bg-2.jpg');
+    background-position: left 7em top , left -7em top -4em, center;
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-size: 20%, 48%, 100%;
+}
+
+.container-ft {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.ft {
+    background-color: var(--branco);
+    filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.25));
+    display: flex;
+    padding: .25em .25em;
+    text-align: center;
+    margin-right: 30%;
+}
+
+.container-ficha {
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+    margin: 1em;
+}
+
+.projeto {
+    color: var(--branco);
+    font-family: var(--fonte-texto);
+    font-size: 18px;
+    line-height: 2em;
+}
+

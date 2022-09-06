@@ -3,6 +3,7 @@
 @import url('./css/botoes.css');
 @import url('./css/incorporadoras.css');
 @import url('./css/video.css');
+@import url('./css/ficha.css');
 
 :root {
     --btn-play: #C38875;
