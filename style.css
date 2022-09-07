@@ -4,6 +4,9 @@
 @import url('./css/incorporadoras.css');
 @import url('./css/video.css');
 @import url('./css/ficha.css');
+@import url('./css/diferenciais.css');
+@import url('./css/localizacao.css');
+
 
 :root {
     --btn-play: #C38875;

@@ -1,0 +1,16 @@
+.Localizacao {
+    background-image:
+    url('../img/parque.png'),
+    url('../img/localizacao.png'), 
+    url('../img/bg.png');
+    background-position: left -7em top -1em, right -1em bottom -10em, center;
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-size: 60%, 70%, 100%;
+
+}
+
+.container-localizacao {
+    display: flex;
+    flex-direction: column;    
+    justify-content: flex-end;
+}
