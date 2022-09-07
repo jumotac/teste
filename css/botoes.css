@@ -79,17 +79,21 @@
 
 .btn-local {
     display: flex;
-    width: 20%;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 100px;
     font-family: var(--fonte-texto);
-    margin: 5em .5em 0 .25em;
+    margin: 1em 8em 0 .25em;
     font-size: 16px;
     text-transform: uppercase;
     text-decoration: none;
     color: var(--branco);
     background-color: var(--btn-play);
-    padding: 12px;
-    border-radius: 5px;
+    border-radius: 16px;
     filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.25));
 }
+
+
 
 
