@@ -36,3 +36,90 @@
     background-repeat: no-repeat, no-repeat, no-repeat, repeat;
     background-size: 75%, 15%, 30%, 100%; 
 }
+
+.cozinha-aberta {
+    background-image:
+    url('../img/planta-cozinhaAberta.png'),
+    url('../img/planta-cozinhaAberta2.png'),
+    url('../img/planta-cozinhaAberta3.png'),
+    url('../img/detalhes-plantaTipo4.png'),
+    url('../img/bg.png');
+    background-position: center, left -1em top 4em, left bottom,  right -10em top -3em, center;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat;
+    background-size: 70%, 25%, 30%, 60%, 100%; 
+}
+
+.diferenciais-cozinha {
+    background-image:
+    url('../img/diferenciais-cozinha.png'),
+    url('../img/planta-cozinhaAberta2.png'),
+    url('../img/planta-cozinhaAberta3.png'),
+    url('../img/bg.png');
+    background-position: top 2em center, left -1em top 1em, left bottom, center;
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+    background-size: 75%, 25%, 30%, 100%; 
+}
+
+.plantas-office {
+        background-image:
+        url('../img/planta-office.png'),
+        url('../img/planta-office2.png'),
+        url('../img/planta-office3.png'),
+        url('../img/detalhes-plantaTipo4.png'),
+        url('../img/bg.png');
+        background-position: center, left -1em top 4em, left bottom,  right -10em top -3em, center;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat;
+        background-size: 70%, 25%, 30%, 60%, 100%; 
+}
+
+.diferenciais-office {
+    background-image:
+    url('../img/diferenciais-office.png'),
+    url('../img/planta-office2.png'),
+    url('../img/planta-office3.png'),
+    url('../img/bg.png');
+    background-position: top 2em center, left -1em top 1em, left bottom, center;
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+    background-size: 75%, 25%, 30%, 100%; 
+}
+
+.plantas-master {
+    background-image:
+    url('../img/planta-suite.png'),
+    url('../img/planta-suite2.png'),
+    url('../img/planta-office3.png'),
+    url('../img/detalhes-plantaTipo4.png'),
+    url('../img/bg.png');
+    background-position: center, left -1em top 4em, left bottom,  right -10em top -3em, center;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat;
+    background-size: 70%, 25%, 30%, 60%, 100%; 
+}
+
+.diferenciais-master {
+    background-image:
+    url('../img/diferenciais-master.png'),
+    url('../img/planta-suite2.png'),
+    url('../img/planta-office3.png'),
+    url('../img/bg.png');
+    background-position: top 2em center, left -1em top 1em, left bottom, center;
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+    background-size: 75%, 25%, 30%, 100%; 
+}
+
+.foto-plantas {
+    background-image: 
+    url('../img/retangulo.png'),
+    url('../img/bg.png');
+    background-position: right -18em bottom -3em, center;
+    background-repeat: no-repeat, repeat;
+    background-size: 150%, 100%;
+    text-align: center;
+}
+
+.foto-tipo {
+    width: 90%;
+    border-radius: 2em;
+    border: 5px solid var(--btn-play);
+    filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.25));
+
+}
