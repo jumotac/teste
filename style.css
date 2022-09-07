@@ -30,6 +30,8 @@
 }
 
 body {
+    width: 1960px;
+    height: 1080px;
     font-family: var(--fonte-titulo);
     font-size: 3em;
     color: var(--cor-fonte);

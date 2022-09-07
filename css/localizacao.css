@@ -3,9 +3,9 @@
     url('../img/parque.png'),
     url('../img/texto-localizacao.png'), 
     url('../img/bg.png');
-    background-position: left -8em top -1em, top center , center;
+    background-position: left -10em top -1em, top left 15em , center;
     background-repeat: no-repeat, no-repeat, repeat;
-    background-size: 47%, 40%, 100%;
+    background-size: 62%, 45%, 100%;
 }
 
 .container-localizacao {
@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 3em 0 0 2em;
+    margin: 5em 0 0 10em;
 }
 
 .teste {
