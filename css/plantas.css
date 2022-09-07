@@ -1,0 +1,38 @@
+.plantas {
+        background-image:
+        url('../img/capa-plantas-2.png'),
+        url('../img/plantas-detalhes.png'),
+        url('../img/bg.png');
+        background-position: left -5em bottom 4em, right -4em top 3em, center;
+        background-repeat: no-repeat, no-repeat, repeat;
+        background-size: 75%, 37%, 100%; 
+}
+
+.container-plantas {
+    display: flex;
+    flex-direction: column;
+    margin: 3em 0 0 18em;
+}
+
+.plantas-tipo {
+    background-image:
+        url('../img/planta-tipo.png'),
+        url('../img/detalhes-plantaTipo3.png'),
+        url('../img/detalhes-plantaTipo2.png'),
+        url('../img/detalhes-plantaTipo4.png'),
+        url('../img/bg.png');
+        background-position: center, left 2em top -4em, left bottom,  right -10em top -3em, center;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat;
+        background-size: 70%, 15%, 30%, 60%, 100%; 
+}
+
+.diferenciais-tipo {
+    background-image:
+    url('../img/diferenciais-tipo.png'),
+    url('../img/detalhes-plantaTipo3.png'),
+    url('../img/detalhes-plantaTipo2.png'),
+    url('../img/bg.png');
+    background-position: top 2em center, left 2em top -4em, left bottom, center;
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+    background-size: 75%, 15%, 30%, 100%; 
+}

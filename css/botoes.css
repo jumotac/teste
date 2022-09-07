@@ -86,7 +86,7 @@
     height: 100px;
     font-family: var(--fonte-texto);
     margin: 1em 8em 0 .25em;
-    font-size: 16px;
+    font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
     color: var(--branco);
@@ -95,6 +95,36 @@
     filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.25));
 }
 
+.btn-desenho {
+    display: flex;
+    justify-content: center;
+    background-color: var(--btn-areas);
+    color: var(--branco);
+    font-family: var(--fonte-texto);
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2em 1em;
+    margin: 1em;
+    width: 35%;
+    text-align: center;
+    border-radius: 8px;
+    filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.25));
+}
+
+.btn-acabamentos {
+    background-color: var(--btn-plantas);
+}
+
+.btn-detalhes {
+    margin-top: 45%;
+}
+
+.img-plantas,
+.img-plantas {
+    width: 40px;
+    height: 40px;
+}
 
 
 
