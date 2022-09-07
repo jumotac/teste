@@ -2,16 +2,17 @@
     background-image: 
     url('../img/fachada.png'),
     url('../img/ficha-tecnica.png'),
+    url('../img/linhas.png'),
     url('../img/bg-2.jpg');
-    background-position: left -5em top -3em, right 2em top -2.5em, center;
-    background-repeat: no-repeat, no-repeat, repeat;
-    background-size: 66%, 45%, 100%;
+    background-position: left -7em top -4em, left 15em top -2.5em, right -4em center, center;
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+    background-size: 48%, 35%, 50%, 100%;
 }
 
 .container-diferenciais {
     display: flex;
-    justify-content: flex-end;
-    margin: 10em 1em 0 0;
+    justify-content: center;
+    margin: 12.5em 2em 0 4em;
 }
 
 .diferenciais {
@@ -19,9 +20,9 @@
     url('../img/diferenciais.png'),
     url('../img/diferenciais-2.png'),
     url('../img/bg.png');
-    background-position: left -5em top -3em, right top -3em, center;
+    background-position: left -6em top -3em, right top -7em, center;
     background-repeat: no-repeat, no-repeat, repeat;
-    background-size: 80%, 45%, 100%;
+    background-size: 65%, 45%, 100%;
 }
 
 .sustentabilidade {
@@ -29,9 +30,9 @@
     url('../img/sustentabilidade.png'),
     url('../img/seguranca.png'),
     url('../img/bg.png');
-    background-position: left -3em top -3em, right top -3em, center;
+    background-position: left -3em top -3em, right top -6em, center;
     background-repeat: no-repeat, no-repeat, repeat;
-    background-size: 60%, 50%, 100%;
+    background-size: 45%, 45%, 100%;
 }
 
 .praticidade {
@@ -39,7 +40,7 @@
     url('../img/lockers.jpg'),
     url('../img/praticidade.png'),
     url('../img/bg-3.jpg');
-    background-position: left -3em top -3em, right 3em top -3em, center;
+    background-position: left -3em top -3em, right 13em top -3em, center;
     background-repeat: no-repeat, no-repeat, repeat;
-    background-size: 50%, 50%, 100%;
+    background-size: 40%, 40%, 100%;
 }
