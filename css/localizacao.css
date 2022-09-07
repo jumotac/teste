@@ -3,14 +3,15 @@
     url('../img/parque.png'),
     url('../img/localizacao.png'), 
     url('../img/bg.png');
-    background-position: left -7em top -1em, right -1em bottom -10em, center;
+    background-position: left -7em top -1em, right bottom -12em, center;
     background-repeat: no-repeat, no-repeat, repeat;
-    background-size: 60%, 70%, 100%;
+    background-size: 47%, 55%, 100%;
 
 }
 
 .container-localizacao {
     display: flex;
     flex-direction: column;    
-    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 5em;
 }

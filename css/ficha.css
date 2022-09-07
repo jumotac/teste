@@ -4,15 +4,15 @@
     url('../img/ficha-tecnica.png'),
     url('../img/linhas.png'),
     url('../img/bg-2.jpg');
-    background-position: left -7em top -4em, left 15em top -2.5em, right -4em center, center;
+    background-position: left -7em top -5em, left 18em top -2.5em, right -8em center, center;
     background-repeat: no-repeat, no-repeat, no-repeat, repeat;
-    background-size: 48%, 35%, 50%, 100%;
+    background-size: 55%, 39%, 50%, 100%;
 }
 
 .container-diferenciais {
     display: flex;
     justify-content: center;
-    margin: 12.5em 2em 0 4em;
+    margin: 12.5em 2em 0 8em;
 }
 
 .diferenciais {

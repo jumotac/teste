@@ -62,7 +62,7 @@
 
 .btn-diferenciais {
     font-family: var(--fonte-texto);
-    margin: 1em .5em 0 .25em;
+    margin: 6em .5em 2em .25em;
     font-size: 16px;
     text-transform: uppercase;
     text-decoration: none;
@@ -81,7 +81,7 @@
     display: flex;
     width: 20%;
     font-family: var(--fonte-texto);
-    margin: 1em .5em 0 .25em;
+    margin: 5em .5em 0 .25em;
     font-size: 16px;
     text-transform: uppercase;
     text-decoration: none;
