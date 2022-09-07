@@ -24,3 +24,12 @@
     width: 500px;
     height: 150px;
 } 
+
+.lifestyle {
+    background-image:
+    url('../img/lifestyle.png'),
+    url('../img/bg.png');
+    background-position: center top -2em, center;
+    background-repeat: no-repeat, repeat;
+    background-size: 80%, 100%; 
+}
