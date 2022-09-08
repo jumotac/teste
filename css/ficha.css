@@ -40,7 +40,7 @@
     url('../img/lockers.jpg'),
     url('../img/praticidade.png'),
     url('../img/bg-3.jpg');
-    background-position: left -3em top -3em, left 17em top -2em, center;
+    background-position: left -3em top -3em, left 16em top -2em, center;
     background-repeat: no-repeat, no-repeat, repeat;
     background-size: 48%, 45%, 100%;
 }
