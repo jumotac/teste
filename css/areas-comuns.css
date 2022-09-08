@@ -1,10 +1,9 @@
 .areas-comuns {
-    margin: 0 .5em;
     background-image:
     url('../img/detalhes-plantaTipo3.png'),
     url('../img/detalhes-plantaTipo4.png'),
     url('../img/bg.png');
-    background-position: left 2em top -4em,  right -10em top -3em, center;
+    background-position: left 2em top -4em,  right -8em top -3em, center;
     background-repeat: no-repeat, no-repeat, repeat;
     background-size: 15%, 60%, 100%; 
 }
@@ -14,7 +13,7 @@
 }
 
 .swiper-wrapper {
-    padding: 2em 0;
+    padding-bottom: 2em;
     align-items: center;
 }
 
