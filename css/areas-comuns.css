@@ -1,4 +1,5 @@
 .areas-comuns {
+    margin: 0 .5em;
     background-image:
     url('../img/detalhes-plantaTipo3.png'),
     url('../img/detalhes-plantaTipo4.png'),
@@ -14,27 +15,33 @@
 
 .swiper-wrapper {
     padding: 2em 0;
+    align-items: center;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    background-color: var(--btn-areas);
+    margin: 0 3.5em;
+    border-radius: 100%;
+    padding: .75em;
+    filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.25));
+
+}
+
+.swiper-button-next::after, .swiper-button-prev::after  {
+    color: var(--branco);
 }
 
 .img-areas {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    width: 90%;
+    width: 70%;
     border-radius: 16px;
-    border: 5px solid var(--btn-play);
+    border: .75em solid var(--btn-play);
+    filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.25));
+
 }
 
 .lockers {
-    width: 45%;
-    margin: 0 auto;
-   
+    width: 30%;   
 }
-
-.fitness {
-    margin: 7em 0;
-}
-
 
 .swiper-button-prev,
 .swiper-button-next {
