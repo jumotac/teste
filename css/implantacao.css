@@ -1,0 +1,48 @@
+.implantacao-terreo,
+.implantacao-lazer {
+        background-image: 
+        url('../img/Implantacao.png'),
+        url('../img/retangulo.png'),
+        url('../img/bg.png');
+        background-position: left top, right -18em bottom -3em, center;
+        background-repeat: no-repeat, no-repeat, repeat;
+        background-size: 20%, 150%, 100%;
+        text-align: center;
+    }
+   
+
+.container-btn-implantacao {
+    margin-bottom: .25em;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 6em;
+}
+
+.foto-implantacao {
+    width: 80%;
+}
+
+.btn-implantacao {
+    background-color: var(--btn-plantas);
+    color: var(--branco);
+    font-family: var(--fonte-texto);
+    font-size: .5em;
+    padding: .75em;
+    margin: 0 .25em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 8px;
+    filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.25));
+}
+
+.terreo {
+    background-color: var(--btn-play);
+}
+
+.implantacao {
+    background-color: var(--btn-play);
+}
+
+.btn-lazer{
+    background-color: var(--btn-play);
+}
