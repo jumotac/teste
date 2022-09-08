@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planta Opção - Vestra Cambuí</title>
+    <link rel="icon" href="./img/icon.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body class="areas-comuns">
+
+    <header class="container-fechar">
+
+        <a href="./index.html" class="btn-x btn-areas"><img src="./img/x.svg" class="btn-fechar"></a>
+
+    </header>
+
+    <section class="carrossel">
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./img/areas/acessos.png" alt="Perspectiva artística dos acessos" class="img-areas"></div>
+                <div class="swiper-slide"><img src="./img/areas/lockers.png" alt="Perspectiva artística dos lockers" class="img-areas lockers"></div>
+                <div class="swiper-slide"><img src="./img/areas/bicicletario.png" alt="Perspectiva artística do bicicletario" class="img-areas"></div>
+                <div class="swiper-slide"><img src="./img/areas/piscina.png" alt="Perspectiva artística da piscina" class="img-areas"></div>
+                <div class="swiper-slide"><img src="./img/areas/fitness.png" alt="Perspectiva artística do fitness" class="img-areas fitness"></div>
+                <div class="swiper-slide"><img src="./img/areas/coworking-omo.png" alt="Perspectiva artística do coworking e omo lavanderia compartilhada" class="img-areas"></div>
+                <div class="swiper-slide"><img src="./img/areas/brinquedoteca.png" alt="Perspectiva artística da brinquedoteca" class="img-areas"></div>
+                <div class="swiper-slide"><img src="./img/areas/churrasqueira.png" alt="Perspectiva artística da churrasqueira" class="img-areas"></div>
+                <div class="swiper-slide"><img src="./img/areas/festas.png" alt="Perspectiva artística do salão de festas" class="img-areas"></div>
+                </div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>     
+            </div>            
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+</html>
