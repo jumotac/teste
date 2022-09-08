@@ -1,0 +1,12 @@
+.qr-code {
+    background-image: 
+    url('../img/qr-code.png'),
+    url('../img/folha-2.png'),
+    url('../img/primor.png'),
+    url('../img/linhas.png'),
+    url('../img/bg-2.jpg');
+    background-position: left -4em top -4em, top, right 7em top 4em, right -4em center, center;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat;
+    background-size: 50%, 20%, 40%, 50%, 100%;
+    text-align: center;
+}

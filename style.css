@@ -9,6 +9,7 @@
 @import url('./css/plantas.css');
 @import url('./css/areas-comuns.css');
 @import url('./css/implantacao.css');
+@import url('./css/qr-code.css');
 
 
 :root {
@@ -16,9 +17,14 @@
     --btn-localizacao: #595E28;
     --btn-ficha: #684C2F;
     --btn-areas: #7D7368;
-    --btn-plantas: #BCB09D;
+    --btn-plantas: #aba08e;
     --branco: #ffffff;
 
+    --play-hover: #f3a88f;
+    --localizacao-hover: #8d963d;
+    --ficha-hover: #a07446;
+    --areas-hover: #999186;
+    --plantas-hover: #bcae9b;
 
     --cor-fonte: #7D7368;
     --fonte-titulo:'Qwitcher Grypen', cursive;

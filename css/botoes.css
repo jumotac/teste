@@ -19,21 +19,41 @@
     background-color: var(--btn-play);
 }
 
+.btn-play:hover {
+    background-color: var(--play-hover);
+}
+
 .btn-localizacao {
     background-color: var(--btn-localizacao);
 }
+
+.btn-localizacao:hover {
+    background-color: var(--localizacao-hover);
+}  
 
 .btn-ficha {
     background-color: var(--btn-ficha);
 }
 
+.btn-ficha:hover {
+    background-color: var(--ficha-hover);
+} 
+
 .btn-areas {
     background-color: var(--btn-areas);
 }
 
+.btn-areas:hover {
+    background-color: var(--areas-hover);
+} 
+
 .btn-plantas {
     background-color: var(--btn-plantas);
 }
+
+.btn-plantas:hover {
+    background-color: var(--plantas-hover);
+} 
 
 .container-fechar {
     display: flex;
@@ -54,6 +74,10 @@
 
 .btn-inc {
     background-color: var(--btn-areas);
+}
+
+.btn-inc:hover {
+    background-color: var(--areas-hover);
 }
 
 .btn-fechar {
@@ -95,6 +119,10 @@
     filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.25));
 }
 
+.btn-local:hover {
+    background-color: var(--play-hover);
+} 
+
 .btn-desenho {
     display: flex;
     justify-content: center;
@@ -112,8 +140,16 @@
     filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.25));
 }
 
+.btn-desenho:hover {
+    background-color: var(--areas-hover);
+}
+
 .btn-acabamentos {
     background-color: var(--btn-plantas);
+}
+
+.btn-acabamentos:hover {
+    background-color: var(--plantas-hover);
 }
 
 .btn-detalhes {

@@ -35,14 +35,24 @@
     filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.25));
 }
 
+.btn-implantacao:hover {
+    background-color: var(--plantas-hover);
+}
+
 .terreo {
     background-color: var(--btn-play);
 }
-
+ 
 .implantacao {
     background-color: var(--btn-play);
 }
 
 .btn-lazer{
     background-color: var(--btn-play);
+}
+
+.terreo:hover,
+.implantacao:hover,
+.btn-lazer:hover {
+    background-color: var(--play-hover);
 }
